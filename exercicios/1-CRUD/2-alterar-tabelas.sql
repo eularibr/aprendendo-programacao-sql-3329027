@@ -4,3 +4,7 @@ Add nivel varchar(50);
 -- Na tabela employees, adicione uma coluna para receber o id_salario
 ALTER TABLE employees
 ADD id_salario INTEGER;
+
+-- Rename
+ALTER TABLE salario_classe 
+RENAME COLUMN id TO id_salario;
